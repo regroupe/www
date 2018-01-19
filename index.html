@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+  <meta name="description" content="groups" />
+  <meta name="keywords" content="groups" />
+  <title>Regroupe</title>
+  <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="hoc.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600|Homemade+Apple" rel="stylesheet">
+
+</head>
+<body>
+  <div id="deck">
+    <!-- Make sure there are no other DOM elemnts on this level except cards -->
+    <!-- You can give each card as many classnames as you want in addition to 'card', the first one should always have the 'cover' classname as well -->
+    <!-- The only classname you shouldn't use is 'stacked', as it's reserved by the flipping logic -->
+    <div id="cardOne" class="card cover">
+      <div class="container">
+        <div class="row titlerow">
+          <h1>&nbsp;Regroupe</h1>
+        </div>
+        <div class="row">
+          <h3>
+            We're a network of friends-of-friends<br> who get together in small groups nightly<br>throughout Manhattan and Brooklyn.
+            <br>
+            <br>
+            We'd love for you to join us.<br>
+            Please provide your email address<br>
+            and we'll be in touch shortly.
+          </h3>
+        </div>
+        <div class="row">
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="https://regroupe.us17.list-manage.com/subscribe/post?u=82834ee863cb1c36b7eac6b8d&amp;id=d951de62ea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <div class="form-group mc-field-group">
+                  <label for="mce-EMAIL"></label>
+                  <input type="email" placeholder="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL">
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_82834ee863cb1c36b7eac6b8d_d951de62ea" tabindex="-1" value=""></div>
+                <div class="clear"><input type="button submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-default"></div>
+              </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="../../../../assets/js/vendor/popper.min.js" type="text/javascript"></script>
+  <script src="../../../../dist/js/bootstrap.min.js" type="text/javascript"></script>
+  <!-- The House of cards js -->
+  <script src="dist/js/hoc.js" type="text/javascript"></script>
+</body>
+</html>
