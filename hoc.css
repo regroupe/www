@@ -127,6 +127,11 @@ font-size: 2.75rem;
 
 #cardOne h3 {
   font-family: 'Crimson Text', serif;
-  font-size: 2rem;
-  padding-top: 2rem;
+  font-size: 1.75rem;
+  padding-top: 1.5rem;
+}
+
+#cardOne .join-text {
+  font-size: 1rem;
+  color: #266744;
 }
