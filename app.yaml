@@ -7,5 +7,5 @@ handlers:
   upload: index.html
   static_files: index.html
 
-- url: /static
+- url: /dist
   static_dir: dist
