@@ -1,0 +1,48 @@
+
+
+
+body, .jumbotron {
+	background-color: #ede8d4
+}
+
+.jumbotron {
+	border: 2px solid #fff;
+}
+
+h1, h3, body, p .lead {
+	font-family: 'EB Garamond', 'Georgia', 'Times', 'Times New Roman', serif;
+/*    font-family: 'Crimson Text', serif;*/
+}
+
+h1 {
+	letter-spacing: -0.125rem;
+}
+
+h3 {
+	font-size: 2rem;
+	font-style: italic;
+}
+
+#mc_embed_signup div.mce_inline_error, .form-control,
+.btn, p, input {
+	letter-spacing: 0.03125rem;
+}
+
+.lead {
+	color: #555;
+	letter-spacing: 0.0125rem;
+}
+
+#mc_embed_signup div.mce_inline_error, .mc_inline_error {
+	font-weight: normal !important;
+}
+
+.btn-primary {
+	background-color: #16508e;
+	border-color: #16508e;
+}
+
+hr {
+	color: #fff;
+	border-top: 1px solid #fff;
+}
