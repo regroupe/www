@@ -7,20 +7,29 @@ body, .jumbotron {
 
 .jumbotron {
 	border: 2px solid #fff;
+	margin: 0.5rem;
 }
 
 h1, h3, body, p .lead {
 	font-family: 'EB Garamond', 'Georgia', 'Times', 'Times New Roman', serif;
-/*    font-family: 'Crimson Text', serif;*/
+	/*    font-family: 'Crimson Text', serif;*/
 }
 
 h1 {
 	letter-spacing: -0.125rem;
+	font-weight: 800 !important;
+	font-size: 4rem !important;
 }
 
 h3 {
 	font-size: 2rem;
 	font-style: italic;
+}
+
+h4 {
+	font-style:italic;
+	letter-spacing: 0.0125rem;
+
 }
 
 #mc_embed_signup div.mce_inline_error, .form-control,
